@@ -1,0 +1,41 @@
+body {
+    background-color:ivory;
+}
+
+.title {
+    text-align: center;
+    font-family: cursive;
+    background-color:maroon;
+    color: white;
+    margin: 0;
+}
+
+.header {
+    background-color: white;
+    border-top: 2px solid black;
+}
+
+.image {
+    display: block;
+    height: 400px;
+    width: auto;
+    margin: 20px auto;
+}
+
+.list {
+    border: 2px solid black;
+}
+
+.recipe-homepage-list-item {
+    display: inline-block;
+    margin: 0 calc((100% - 500px) / 6);
+}
+
+.recipe-details {
+    background-color: white;
+}
+
+a:link,
+a:visited {
+    color: black;
+}
